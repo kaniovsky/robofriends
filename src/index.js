@@ -1,0 +1,47 @@
+import React from 'react'; //for mobiles, for devices
+import ReactDOM from 'react-dom';  //for browsers
+import './index.css';  //needs directory path
+// import Card from './Card'
+import App from './containers/App';
+import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+
+ReactDOM.render(
+	<App />
+, document.getElementById('root'))
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+// import React from 'react'; //for mobiles, for devices
+// import ReactDOM from 'react-dom';  //for browsers
+// import './index.css';  //needs directory path
+// // import Card from './Card'
+// import App from './App';
+// import * as serviceWorker from './serviceWorker';
+// import 'tachyons';
+// import { robots } from './robots'
+
+// ReactDOM.render(
+// 	<App />
+// , document.getElementById('root'))
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+// serviceWorker.unregister();
